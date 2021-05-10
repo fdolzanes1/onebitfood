@@ -1,7 +1,9 @@
+puts 'Limpando Tabelas'
 Product.destroy_all
 ProductCategory.destroy_all
 Restaurant.destroy_all
 Category.destroy_all
+puts 'Limpeza Realizado com Sucesso!'
 
 puts 'Criando Categorias'
 
